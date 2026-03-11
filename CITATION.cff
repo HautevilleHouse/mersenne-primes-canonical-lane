@@ -1,0 +1,23 @@
+  title: "Infinitely Many Mersenne Primes via Exponential-Prime Persistence"
+  message: "If you use this workspace, cite the manuscript and theorem notes."
+  type: software
+  authors:
+    - name: "HautevilleHouse"
+  date-released: 2026-03-11
+  repository-code: "https://github.com/HautevilleHouse/mersenne-primes-canonical-lane"
+  url: "https://github.com/HautevilleHouse/mersenne-primes-canonical-lane"
+  license: None
+  keywords:
+    - exponential-primes
+- mathematical-proof
+- mersenne-primes
+- number-theory
+- prime-distribution
+- reproducibility
+- lucas-lehmer
+  preferred-citation:
+    type: article
+    title: "Infinitely Many Mersenne Primes via Exponential-Prime Persistence"
+    authors:
+      - name: "HautevilleHouse"
+    date: 2026-03-11

@@ -1,0 +1,78 @@
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "MP_G1": [],
+    "MP_G2": [],
+    "MP_G3": [],
+    "MP_G4": [],
+    "MP_G5": [],
+    "MP_G6": [],
+    "MP_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 0.8051529790660226
+  },
+  "gates": {
+    "MP_G1": "PASS",
+    "MP_G2": "PASS",
+    "MP_G3": "PASS",
+    "MP_G4": "PASS",
+    "MP_G5": "PASS",
+    "MP_G6": "PASS",
+    "MP_GM": "PASS"
+  },
+  "inputs": {
+    "kappa_exponential": 1.090665,
+    "sigma_lucas": 1.071,
+    "kappa_compact": 0.8051529790660226,
+    "rho_rigidity": 1.076,
+    "residue_transfer": 1.028422,
+    "eps_coh": 0.0,
+    "sigma_star_can": 1.053
+  },
+  "lane": {
+    "canonical_theorem_lane": "manifold_constrained",
+    "active_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-03-11T12:00:00+00:00",
+    "framework": "mersenne_primes"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "NA",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "NA means this framework has no standalone pre-coherence G6 gate",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}
