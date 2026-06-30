@@ -1,6 +1,46 @@
-# EG4 Public Note
+# EG4 Public Note (Rigidity and Endpoint Transfer)
 
-Gates: `MP_G4`, `MP_G5`
-Constants: `rho_rigidity`, `residue_transfer`
+Mature wording: `bad-limit exclusion / endpoint transfer`.
 
-This note packages rigidity and transfer. Rigidity excludes the bad-limit class by contradiction with the admissible identities, while the transfer inequality carries the rigid endpoint into the intended target class.
+In-paper anchor: `paper/MERSENNE_PRIMES_PREPRINT.md` (`MP_G4`, `MP_G5`).
+
+## Goal
+Separate the rigidity job from the endpoint-transfer job for `prove infinitude of Mersenne primes by routing admissible exponential-prime states through coercive exponential response, Lucas capture, compactness, rigidity, residue transfer, and strict coherence`.
+The older wording `rigidity and endpoint-transfer` corresponds to bad-limit exclusion plus the bridge into the intended endpoint object.
+
+## Objects
+
+- bad-limit class: candidates extracted by the compactness gate but incompatible with closure.
+- rigidity floor: `rho_rigidity`.
+- endpoint-transfer lock: `residue_transfer`.
+- coherence interface: `eps_coh` remains available to the bridge and final margin.
+
+## Closure Criterion
+
+`MP_G4` closes when `rho_rigidity` excludes bad endpoint alternatives: bad residue obstruction models are excluded.
+`MP_G5` closes when `residue_transfer` transfers the surviving endpoint to the intended target class: rigid limit transfers to the Mersenne-prime endpoint class.
+Together they feed the strict margin `M_MP`.
+
+## Lemma Chain and Proof Payload
+
+### Lemma EG4.1 (bad-limit exclusion)
+Every extracted bad limit contradicts a declared rigidity constraint or leaves the admissible class.
+
+Payload: verify `rho_rigidity` in the registry and certificate surfaces.
+
+### Lemma EG4.2 (endpoint transfer)
+The surviving rigid representative is locked to the standard problem-side endpoint by `residue_transfer`.
+
+Payload: read this note together with `notes/IDENTIFICATION_BRIDGE.md`.
+
+### Theorem EG4.3 (rigidity/transfer gate closure)
+If bad limits are excluded and the endpoint lock is active, then `MP_G4` and `MP_G5` deliver the boundary object needed by the final margin.
+
+## Current Instantiation
+
+- rigidity gate: `MP_G4`
+- rigidity artifact key: `rho_rigidity`
+- transfer gate: `MP_G5`
+- transfer artifact key: `residue_transfer`
+- mature equivalent: `bad-limit exclusion / endpoint identification`
+- audit surface: `notes/IDENTIFICATION_BRIDGE.md` and `repro/certificate_runtime.json`
