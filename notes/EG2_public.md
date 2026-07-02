@@ -1,6 +1,6 @@
 # EG2 Public Note (Capture and Restart)
 
-Mature wording: `transport / local-to-global transfer`.
+Canonical wording: `transport / local-to-global transfer`.
 
 In-paper anchor: `paper/MERSENNE_PRIMES_PREPRINT.md` (`MP_G2`).
 
@@ -38,5 +38,5 @@ If transport accounting and restart preservation hold, then `MP_G2` carries loca
 
 - gate: `MP_G2`
 - artifact key: `sigma_lucas`
-- mature equivalent: `transport / local-to-global transfer`
+- canonical equivalent: `transport / local-to-global transfer`
 - audit surface: `repro/run_repro.sh` and `repro/certificate_runtime.json`
